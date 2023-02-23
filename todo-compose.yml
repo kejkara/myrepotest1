@@ -1,0 +1,10 @@
+version: '1'
+  services:
+    todo-app:
+      image: todo-dev
+      ports: 
+        - 8000:8000
+
+
+
+
