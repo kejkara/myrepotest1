@@ -1,9 +1,9 @@
-version: '3'
-  services:
-    todo-app:
-      image: todo-dev
-      ports: 
-        - 8000:8000
+version: "3.3"
+services:
+  todo-dev:
+    image: todo-dev
+    ports: 
+      - 8000:8000
 
 
 
